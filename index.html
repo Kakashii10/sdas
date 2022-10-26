@@ -1,0 +1,391 @@
+<!doctype html>
+<html>
+
+<head>
+	<title> UI/UX Designer </title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body {
+			font-family: 'Italiana';
+		}
+
+		.image_box img {
+
+			max-width: 100%;
+			transition: 0.5s all ease-in-out;
+		}
+
+		.slider_container .containers {
+			max-width: 1230px;
+			padding: 0 15px;
+			margin: 0 auto;
+		}
+
+		.swiper-pagination-bullet-active {
+			color: #fff;
+			background: #17191b;
+		}
+
+		.swiper-pagination-bullet {
+			width: 10px;
+			height: 10px;
+			text-align: center;
+			line-height: 20px;
+			font-size: 12px;
+			opacity: 1;
+			background: white;
+		}
+
+		/* .image_box img:hover {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  transform: scale(1.5); 
+} */
+	</style>
+</head>
+<script>
+	// When the user scrolls the page, execute myFunction 
+	window.onscroll = function () { myFunction() };
+
+	function myFunction() {
+		var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+		var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+		var scrolled = (winScroll / height) * 100;
+		document.getElementById("myBar").style.width = scrolled + "%";
+		// document.getElementById("progress-bar-contents").style.width = scrolled + "%";
+		// document.getElementById("progress-bar-contents").style.color =  "red";
+	}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<body>
+
+	<div class="con" style="overflow: hidden;">
+		<div class="navigation" style="overflow: hidden;">
+			<div class="logo" style=" margin-left: 30px;margin-top: 20px;">
+<<<<<<< HEAD
+				<img src="image/Group 27.svg">
+=======
+				<img src="image/Logo.svg">
+>>>>>>> 5357ce2 (first all)
+			</div>
+			<nav style="margin-right:16px; font-family: Poppins;">
+				<a href="#section1" class="progress-bar-content" id="progress-bar-contents">HOME</a>
+				<a href="#section4">ABOUT</a>
+				<a href="#section5">FEATURED</a>
+				<a href="#section2">PROJECT</a>
+				<a href="#section3">CONTACT</a>
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				</div>
+		</div>
+		</nav>
+	</div>
+
+	<div class="container">
+		<div class="background-image">
+			<div class="main-part">
+				<div class="intro" id="section1" style="margin-left: 50px;">
+					<h1>HI!<br>
+						<span class="i">I'm Rohit, a</span><br>
+						<span class="web">UI/UX Designer</span>
+					</h1>
+					<p style="font-family: Poppins; font-size:16px;">Turning bright ideas into beautiful, useful, and
+						delightful digital products that everyone can use.</p><br><br>
+					<div class="img"><img src="image/home/arrow big.svg">
+
+					</div>
+				</div>
+			</div>
+<<<<<<< HEAD
+		</div>
+		<div class="center-area">
+			<div class="parent">
+				<div class="child">
+					<h1>About Me</h1><br>
+=======
+		</div><span></span>
+		<div class="center-area">
+			<div class="parent">
+				<div class="child">
+					<h1 style="font-size:30px;font-family:Italiana;">About Me</h1><br>
+>>>>>>> 5357ce2 (first all)
+				</div>
+				<div class=main-center>
+					<div class="left-center-1"> <br><br><img src="images/passport.png" style="
+						width: 268px; height:50%;
+					"></div>
+					<div class="right-center-1" style="margin-right:16px; font-family: Poppins;">
+						<h2 id="section4">Hi There! I'm Rohit Barwal</h2>
+						<h3>UI/UX Designer</h3>
+						<p>I am a UI/UX Designer who is passionate about creating digital experiences that make a
+							positive
+							impact on people, the environment and society. As a result of the skills and knowledge
+							I have acquired, I am seeking exposure to various challenges relating to user experience and
+							visual design in environments that range from tiny startups to Fortune corporations.</p>
+						<br><br>
+						<table>
+							<tr>
+								<td>Birthday</td>
+								<td>:&emsp; 2 July 1998</td>
+							</tr>
+							<tr>
+								<td>Phone</td>
+								<td>:&emsp; +918448926165</td>
+							</tr>
+							<tr>
+								<td>Email</td>
+								<td>:&emsp; rohitbarwal1998@gmail.com</td>
+							</tr>
+							<tr>
+								<td>From</td>
+								<td>:&emsp; New Delhi, India</td>
+							</tr>
+							<tr>
+								<td>language</td>
+								<td>:&emsp; English, Hindi</td>
+							</tr>
+						</table>
+						<a href="/portfolio/CV/resume.pdf" download
+							style="margin-right:16px; font-family: Poppins;"><button class="bt-CV">Download
+								CV</button></a>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="center-area">
+			<div class="parent">
+				<div class="child">
+					<h1 id="section5" style="font-family:Italiana;">Featured</h1>
+				</div>
+				<div class=main-center>
+					<div class="left-center">
+<<<<<<< HEAD
+						<img src="image/rojgar pic.jpg">
+					</div>
+					<div class="right-center" style="margin-right:16px; font-family: Poppins;">
+						<h2>RojgarBaba Application</h2>
+						<p>The Rojgar Baba platform is an online platform that provides services.
+							It offers a variety of services, including cleaning, cooking, repairs, grooming, and home
+							education.
+							As a result of this project, all<span id="dots">...</span><span id="more"></span> basic
+							needs of people are met to make their lives more fulfilling
+							by either hiring any service or creating
+							jobs for the unemployed and uneducated..</span></p>
+						<!-- <button onclick="readme()" id="myBtn" class="bt">Read more</button> -->
+=======
+						<img src="image/mockup final@2x@2x.png">
+					</div>
+					<div class="right-center" style="margin-right:16px; font-family:Poppins;">
+						<h2><img src="image/RojgarBaba Application.svg" style="width: 80%;"> </h2>
+						<p>The Rojgar Baba platform is an online platform that provides services.
+							It offers a variety of services, including cleaning, cooking, repairs, grooming, and home
+							education.
+							As a result of this project, all<span id="dots"></span><span id="more"></span> basic
+							needs of people are met to make their lives more fulfilling
+							by either hiring any service or creating
+							jobs for the unemployed and uneducated.</span></p>
+						<!-- <button onclick="readme()" id="myBtn" class="bt">Read more</button> -->
+						<a href="/portfolio/CV/Case Study.pdf" download
+							style="margin-right:16px; font-family: Poppins; "><button  style="width:35%;" class="bt-CV">View Project
+							</button></a>
+>>>>>>> 5357ce2 (first all)
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="head">
+			<h1 id="section2" style="text-align:center;">Project</h1>
+		</div>
+		<section class="slider_container">
+			<div class="containers" style="
+			width: 80%;">
+
+				<div class="swiper card_slider">
+
+					<div class="swiper-wrapper">
+
+
+						<div class="swiper-slide">
+							<div class="image_box">
+								<a href="fashion.html" target="_blank"><img src="images/fashion.jpg"></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image_box">
+								<a href="flower.html" target="_blank"><img src="images/flower.jpg"></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image_box">
+								<a href="food.html" target="_blank"> <img src="images/food.jpg"></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image_box">
+								<a href="mensfalir.html" target="_blank"> <img src="images/mensfalir.jpg"></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image_box">
+								<a href="perfume.html" target="_blank"><img src="images/perfume.jpg"></a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="image_box">
+								<a href="shoes.html" target="_blank"><img src="images/shoes.jpg"></a>
+							</div>
+						</div>
+
+
+
+					</div>
+
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+
+<<<<<<< HEAD
+				<div class="swiper-pagination" style="	position:relative;margin-top: 35px;"></div>
+=======
+				<div class="swiper-pagination" style="position:relative;margin-top: 35px;"></div>
+>>>>>>> 5357ce2 (first all)
+			</div>
+
+	</div>
+
+	</section>
+	<script>
+		var swiper = new Swiper(".card_slider", {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			loop: true,
+			// autoplay: {
+			// 	delay: 2000,
+			// },
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5357ce2 (first all)
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5357ce2 (first all)
+			},
+		});
+	</script>
+
+	<h1 id="section3" style="text-align:center;color:yellow;font-size: 40px;margin-top:150px;color: #fdae38;">Contact Me
+	</h1>
+	<div class="container1" style="margin-right:16px; font-family: Poppins;">
+		<div class="content">
+			<div class="right-side">
+				<!-- <div class="topic-text">Send me a message</div> -->
+
+				<form action="#">
+					<div class="input-box">
+						<p>NAME</p>
+						<input type="text" placeholder="Enter your name">
+					</div>
+					<div class="input-box">
+						<p>EMAIL ADDRESS</p>
+						<input type="text" placeholder="Enter your email">
+					</div>
+					<div class="input-box message-box">
+						<p>MESSAGE</p>
+<<<<<<< HEAD
+						<textarea placeholder="Message for us"></textarea>
+=======
+						<textarea style ="font-family: Poppins;" placeholder="Message for us"></textarea>
+>>>>>>> 5357ce2 (first all)
+					</div>
+					<div class="button">
+						<input type="button" value="Send">
+					</div>
+				</form>
+			</div>
+			<div class="left-side">
+				<div class="email details">
+					<ul class="address-top-menu">
+						<li>
+							<div class="icon"><img src="image/contact/email.svg"></div>
+						</li>
+					</ul>
+					<ul class="top-contact-menu">
+						<li>
+							<div class="topic">Email </div>
+							<div class="text-one">rohitbarwal1998@gmail.com</div>
+						</li>
+					</ul>
+				</div>
+				<div class="phone details">
+					<ul class="address-top-menu">
+						<li>
+							<div class="icon"><img src="image/contact/call.svg"></div>
+						</li>
+					</ul>
+					<ul class="top-contact-menu">
+						<li>
+							<div class="topic">Phone</div>
+							<div class="text-one">+918448926165</div>
+						</li>
+					</ul>
+				</div>
+				<div class="address details">
+					<ul class="address-top-menu">
+						<li>
+							<div class="icon"><img src="image/contact/address.svg"></div>
+						</li>
+					</ul>
+					<ul class="top-contact-menu">
+						<li>
+							<div class="topic">Address</div>
+							<div class="text-one">New Delhi, India</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<footer>
+		<div class="fb">
+			<div class="fn">
+				<h1 style="font-family:Italiana;">ROHIT BARWAL</h1>
+			</div>
+			<div class="sfn">
+				<h2 style="font-family:Italiana;">UI/UX DESIGNER</h2>
+			</div>
+
+			<div class="touch">
+				<p>Get In Touch At</p>
+				<p>rohitbarwal1998@gmail.com</p>
+				<p>+918448926165</p>
+			</div>
+			<div class="fi">
+				<i class="fa fa-facebook-square" style="font-size:30px;color:#1750af"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="image/footer/insta.svg">&nbsp;&nbsp;&nbsp;&nbsp;
+				<i class="fa fa-linkedin" style="font-size:30px;color:#226CAF"></i>
+				<!-- <img src="image/footer/facebook.svg">
+				
+				<img src="image/footer/linked in.svg"> -->
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

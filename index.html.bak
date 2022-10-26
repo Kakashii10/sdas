@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<title> Web Developer </title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+		    <div class="logo">
+			   <img src="image/Group 27.svg">
+			</div>
+			
+		   <nav>
+			
+					<a href="#">HOME</a>
+				
+					<a href="#">PROJECT</a>
+				
+					<a href="Contact.html">CONTACT</a>
+				
+					<a href="#">ABOUT</a>
+
+
+					</div>				
+	        </nav>
+	    </div>
+	    
+	    <div class="container">
+	    	<div class="background-image">
+	    		<div class="main-part">
+	    			<div class="intro">
+	    				<h1>HI!<br>
+					        <span class="i">I,m ANMOL,a</span><br>
+					        <span class="web">Web Developer</span>
+                         </h1>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsi odio fugit elitate, elitate,Ipsi odio fugit elitate,.</p><br><br>
+                                <div class="img"><img src ="image/ep_arrow-down.svg">
+
+                    </div>
+                   </div>
+
+	
+	</div> </div>
+	<div class="center-area">
+		<div class="parent">
+			<div class="child"><h1>Featured</h1></div>
+			<div class=main-center>
+			     <div class="left-center"> <img src="image/desktop.jpg"></div>
+			    <div class="right-center"> <h2>RojgarBaba Application</h2>
+                    <p>RojgarBaba lorem ipsum dolor sit amet consecteturm adipisicing elit.
+                       Reprehenderit, minus quibusdam? Ipsum atque voluptate,
+			              obcaecati illo adipisci quidem, i delectus dolor sunt
+				       odit alias ut nemo repellendus dignissimos pariatur 
+				            obcaecati illo adipisci quidem, i delectus dolor sunt
+				       odit alias ut nemo repellendus dignissimos pariatur
+				          obcaecati illo adipisci quidem, i delectus dolor sunt
+				       odit alias ut nemo repellendus dignissimos.</p>
+
+				         <button class="bt">Read More</button>
+
+
+    </div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="ca">
+		<div class="head"> <h1>Work</h1> </div>
+		<div class="cab">
+
+			<div class="class">
+				<div class="menu">
+                    <img src="image/Group 59.jpg"> </div>
+                <div class="menu">
+                    <img src="image/Group 59.jpg"> </div>
+			</div>
+
+             
+			<div class="class">
+				
+				  <div class="btn"><button>Explore More</button></div>
+					 <div class="menu">
+                    <img src="image/Group 59.jpg"> </div>
+                    <div class="menu">
+                    <img src="image/Group 59.jpg"> </div>
+			
+		      
+			</div>
+
+
+			<div class="class">
+				<div class="menu">
+                    <img src="image/Group 59.jpg"> </div>
+                <div class="menu">
+                    <img src="image/Group 59.jpg"> </div>
+			
+		   
+			
+		</div>
+	</div>
+
+		
+	
+     <div class="big-banner">
+
+        <div class="big-image">
+             <img src="image/Group 68.jpg"></div>
+</div>
+</div>
+ </div>
+<footer>
+	<div class="fb">
+		<div class="fn"><h1>ANMOL SHARMA</h1></div>
+		   <div class="sfn"><h2>Web Developer</h2></div>
+		  
+				<div class="next">
+						<p>Get In Touch At</p>
+						<p>anmol777sharma@gmail.com</p>
+						<p>+919654072682</p>
+				</div>	
+
+                <div class="fi">
+
+					    <img src="image/Vector 3.svg">
+					    <img src="image/Vector.svg">
+					    <img src="image/Group 90.svg">
+               </div>	
+	</div>
+	
+</footer>
+</body>
+</html> 
